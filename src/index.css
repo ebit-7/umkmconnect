@@ -1,0 +1,66 @@
+/* src/index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* cegah horizontal scroll */
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Pastikan konten di main container tidak mepet navbar dan footer */
+main.container {
+  margin-top: 4rem;   /* sesuaikan dengan tinggi navbar */
+  margin-bottom: 4rem; /* beri ruang di bawah sebelum footer */
+  min-height: 70vh; /* minimal tinggi supaya footer di bawah */
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  word-wrap: break-word; /* pecah kata yang terlalu panjang */
+}
+
+/* Optional styling paragraf agar enak dibaca */
+p {
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Styling button logout supaya jelas */
+.btn-danger {
+  min-width: 100px;
+}
+
+/* Custom dropdown on hover for desktop */
+.dropdown-hover {
+  position: relative;
+}
+
+.dropdown-hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.dropdown-hover:hover .dropdown-menu,
+.dropdown-hover .dropdown-menu:hover {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  main.container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+  }
+}
