@@ -1,35 +1,44 @@
 # 💼 Si Mikro
 
-**Si Mikro** adalah aplikasi interaktif yang memanfaatkan machine learning untuk memetakan dan mengklasifikasikan Usaha Mikro Kecil dan Menengah (UMKM) ke dalam tiga kategori:  
-📉 Mikro Subsisten, ⚖️ Mikro Berkembang, dan 📈 Mikro Unggul.
+**Si Mikro** adalah aplikasi cerdas berbasis machine learning yang dirancang untuk membantu pemetaan dan klasifikasi UMKM di Indonesia ke dalam tiga kategori utama:
 
-Aplikasi ini bertujuan untuk membantu pemangku kepentingan dalam:
-- Menganalisis profil UMKM
-- Menyediakan rekomendasi peningkatan usaha berbasis data
-- Meningkatkan efektivitas pendampingan dan pembiayaan
+- 📉 **Mikro Subsisten**
+- ⚖️ **Mikro Berkembang**
+- 📈 **Mikro Unggul**
 
----
-
-## 🚀 Fitur Unggulan
-
-- 🌐 Antarmuka berbasis web (Streamlit + React)
-- 📊 Klasifikasi otomatis UMKM berdasarkan 6 parameter utama
-- 🔍 Penjelasan model ML dengan LIME (interpretable AI)
-- 🧭 Rekomendasi strategis agar usaha bisa naik kelas
+Dengan dukungan visualisasi, rekomendasi, dan AI interpretatif (LIME), platform ini menjadi solusi digital yang dapat membantu pelaku usaha dan lembaga pendukung dalam pengambilan keputusan yang lebih tepat sasaran.
 
 ---
 
-## 📦 Teknologi yang Digunakan
+## 🎯 Tujuan Aplikasi
 
-- **Frontend**: React.js, Bootstrap
-- **Backend**: Python (Streamlit)
-- **Model**: Clustering + klasifikasi menggunakan Scikit-learn
-- **Interpretasi Model**: LIME
-- **Visualisasi**: Matplotlib
+- Memberikan **klasifikasi otomatis** berdasarkan data usaha mikro
+- Menyediakan **rekomendasi strategis** berbasis data agar UMKM bisa naik kelas
+- Menjadi alat bantu visual untuk **pendampingan, pelatihan, atau penyaluran pembiayaan**
 
 ---
 
-## 🔧 Instalasi
+## 🛠️ Teknologi yang Digunakan
+
+| Komponen     | Teknologi                                |
+|--------------|-------------------------------------------|
+| Backend      | Python, Streamlit, Scikit-learn, LIME     |
+| Frontend     | React.js, Bootstrap                       |
+| Deployment   | VPS via IDCloudHost (Linux Ubuntu 22.04)  |
+
+---
+
+## 🧩 Fitur Utama
+
+- 🧠 **Klasifikasi Machine Learning**
+- 🔍 **Penjelasan Model (LIME)**
+- 📈 **Rekomendasi Strategis Naik Kelas**
+- 🎨 UI Modern berbasis React + Bootstrap
+- 🛡️ Autentikasi pengguna (Login/Register sederhana)
+
+---
+
+## 🔧 Instalasi Lokal (Developer Mode)
 
 ### 1. Clone repositori
 ```bash
