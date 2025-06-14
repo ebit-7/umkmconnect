@@ -38,9 +38,4 @@ Dengan dukungan visualisasi, rekomendasi, dan AI interpretatif (LIME), platform 
 
 ---
 
-## 🔧 Instalasi Lokal (Developer Mode)
 
-### 1. Clone repositori
-```bash
-git clone https://github.com/username/si-mikro.git
-cd si-mikro
