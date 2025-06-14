@@ -1,30 +1,30 @@
-# 🚀 UMKMConnect - Dashboard Prediksi dan Rekomendasi UMKM
+# 💼 Si Mikro - Dashboard Prediksi dan Rekomendasi UMKM
 
-UMKMConnect adalah platform digital berbasis Machine Learning dan Web App untuk **klasifikasi usaha mikro** di Indonesia. Aplikasi ini membantu pelaku UMKM memahami posisi usahanya dan memberikan **rekomendasi strategis** berdasarkan data keuangan dan digitalisasi.
+**Si Mikro** adalah aplikasi pintar berbasis Machine Learning yang membantu pelaku **Usaha Mikro** di Indonesia untuk mengetahui kelas usahanya (**Subsisten**, **Berkembang**, atau **Unggul**) dan menerima **rekomendasi strategis** berbasis data keuangan dan digitalisasi.
 
 ---
 
 ## 🎯 Fitur Utama
 
-- ✅ Prediksi kelas usaha mikro: Subsisten, Berkembang, atau Unggul
-- 📊 Analisis model menggunakan LIME
+- ✅ Prediksi otomatis kelas UMKM berdasarkan 6 parameter utama
+- 📈 Analisis model menggunakan LIME (penjelasan model)
 - 🧠 Model klasifikasi berbasis clustering & supervised learning
-- 📈 Rekomendasi strategis berbasis gap analysis
-- 🔐 Sistem login & registrasi (frontend React)
-- 🌐 Integrasi penuh Streamlit + React
+- 📊 Rekomendasi strategi berbasis perbandingan dengan cluster terbaik
+- 🔐 Sistem login dan registrasi via frontend React
+- 🌐 Integrasi penuh antara Streamlit (backend) dan React (frontend)
 
 ---
 
 ## 🖼️ Tampilan Aplikasi
 
-![Preview UMKMConnect](./images/screenshot.png)
+![Preview Si Mikro](./images/screenshot.png) <!-- Ganti dengan path file gambar -->
 
 ---
 
-## 🛠️ Cara Menjalankan
+## 🚀 Cara Menjalankan Aplikasi
 
-### 🔧 1. Clone Repositori
+### 1. Clone Repository
 
 ```bash
-git clone https://github.com/namauser/umkmconnect.git
-cd umkmconnect
+git clone https://github.com/namauser/si-mikro.git
+cd si-mikro
